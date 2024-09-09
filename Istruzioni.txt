@@ -1,0 +1,46 @@
+ARGOMENTO:
+Tempo di utilizzo del cell? Con risparmio energetico, a na certa non lo puoi più utilizzare
+
+Introduzione prima delle domande: 
+Salve, benvuto/a nel nostro programma! Grazie al nostro aiuto, puoi dare una seconda vita al tuo telefono, diminuendo la produzione e il consumo di telefoni che impattano negativamente sull'ambiente. 
+In base ad alcuni dati che ti chiederemo in input, saremo in grado di capire se il tuo telefono è nelle condizioni di essere venduto e quindi riutilizzato. Se il tuo telefono non può essere venduto, ti daremo delle istruzioni per riciclarlo corettamente nel rispetto dell'ambiente. Inserendo vari dati, possiamo anche darti un reseconto del tempo di utilizzo del tuo telefono e in caso aiutarti a disintossicarti. Grazie per aver scelto di supportare il nostro programma e goditi l'esperienza!
+
+
+
+Classe Telefono: 
+- livello batteria
+- surriscaldamento
+- usato (batteria si scarica il 10% più velocemente)
+- modello 
+- età (se vecchio meno probabilità di venderlo)
+- prezzo
+- memoria del telefono (in GB)
+- stato batteria (se troppo usurata non vendibile)
+- List<App>
+
+
+
+funzione tempoUtilizzo():
+funzione di Telefono
++ random per calcolare
+
+ 
+funzione risparmioEnergetico():
+funzione di Telefono
+con condizioni come livello batteria e surriscaldamento
+
+funzione fotocamera faiFoto()
+se fai tante foto la batteria si consuma di un tot
+
+interfaccia Vendibile:
+se è messo bene lo posso vendere, se è usato poco, se è sfasciato no. SE LO VENDO SONO ECOSOSTENIBILE E NON INQUINO
+usatoPoco: statoBatteria, utilizzoGiornaliero * 365 * anniDiUtilizzo = (se maggiore di un tot, non è vendibile)
+
+
+Il Telefono ha una LISTA di App
+Classe App (ad esempio: Fotocamera, MemoriaResidua, TempoDiUtilizzo)
+Ogni 3 h il livello di batteria del tel scende del 25%
+
+Classe Whatsapp figlio di Classe App
+
+Ogni settimana resoconto media ore al giorno e ore totali in 1 settimana.
